@@ -21,19 +21,18 @@ def mostrarStock(categoria):
         print(f"Error al mostrar el stock: {e}")
 
 def añadirTransaccion():
-    fecha = input("Ingrese la fecha de la transacción: ")
+    fecha = input("Ingrese la fecha de la transacción (YYYY-MM-DD): ")
     nombreCliente = input("Ingrese el nombre del cliente: ")
     direccionCliente = input("Ingrese la dirección del cliente: ")
     empleado = input("Ingrese nombre del empleado: ")
     cargo = input("Ingrese su cargo: ")
-
     categorias = {
         '1': 'Panaderia',
         '2': 'Pasteleria',
         '3': 'Bebidas',
         '4': 'Promociones'
     }
-
+    fg.borrar_pantalla()
     print("Seleccione el tipo de producto:")
     for clave, categoria in categorias.items():
         print(f"{clave}. {categoria}")

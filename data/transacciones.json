@@ -1,3 +1,32 @@
 {
-    "transacciones": []
+    "transacciones": [
+        {
+            "Fecha de la transacci\u00f3n": "2024-08-08",
+            "Nombre del cliente": "Juan P\u00e9rez",
+            "Direcci\u00f3n del cliente": "Calle Falsa 123",
+            "Empleado": "Ana G\u00f3mez",
+            "Cargo": "Cajera",
+            "Productos": [
+                {
+                    "Producto": "Sprite",
+                    "Cantidad": "2",
+                    "Precio": "3200"
+                }
+            ]
+        },
+        {
+            "Fecha de la transacci\u00f3n": "2024-06-01",
+            "Nombre del cliente": "Elidallana",
+            "Direcci\u00f3n del cliente": "call2a",
+            "Empleado": "ayelmer",
+            "Cargo": "cajero",
+            "Productos": [
+                {
+                    "Producto": "Red-Bull",
+                    "Cantidad": "5",
+                    "Precio": "4000"
+                }
+            ]
+        }
+    ]
 }
