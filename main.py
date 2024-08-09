@@ -2,7 +2,7 @@ import json
 import modules.funcionGlobal as fg
 import modules.corefiles as cf
 import ui.menus as ui
-
+#AGREGAR MAIN
 def main():
     fg.borrar_pantalla()
     cf.iniciarRegistroTransacciones()
