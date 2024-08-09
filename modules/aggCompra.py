@@ -3,7 +3,7 @@ import ui.menus as uiM
 import modules.funcionGlobal as fg
 
 def añadirCompra():
-    fecha = input("Ingrese la fecha de la Compra: ")
+    fecha = input("Ingrese la fecha de la Compra (YYYY-MM-DD): ")
     nombreProvedor = input("Ingrese el nombre del Proveedor: ")
     contactoProvedor = input("Ingrese el contacto del Proveedor: ")
     productos = []
