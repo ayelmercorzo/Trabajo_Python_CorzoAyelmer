@@ -51,16 +51,16 @@ Selecciona la opción para registrar una venta.
 Introduce la fecha, información del cliente, empleado, y detalles de los productos vendidos.
 
 
-Ingrese la fecha de la transacción: 2024-08-08
-Ingrese el nombre del cliente: Juan Pérez
-Ingrese la dirección del cliente: Calle Falsa 123
-Ingrese nombre del empleado: Ana Gómez
-Ingrese su cargo: Cajera
-Ingrese el tipo de producto (panaderia, pasteleria, bebidas, promociones): panaderia
-Producto: Pan de Bono
-Cantidad: 10
-Precio: 700
-Puedes agregar múltiples productos.
+1. Ingrese la fecha de la transacción: 2024-08-08
+2. Ingrese el nombre del cliente: Juan Pérez
+3. Ingrese la dirección del cliente: Calle Falsa 123
+4. Ingrese nombre del empleado: Ana Gómez
+5. Ingrese su cargo: Cajera
+6. Ingrese el tipo de producto (panaderia, pasteleria, bebidas, promociones): panaderia
+7. Producto: Pan de Bono
+8. Cantidad: 10
+10. Precio: 700
+11. Puedes agregar múltiples productos.
 
 ## Registro de Compras:
 
@@ -81,9 +81,9 @@ Selecciona la opción para generar un informe.
 Introduce el rango de fechas para el informe de ventas.
 
 
-Ingrese la fecha de inicio (YYYY-MM-DD): 2024-08-01
-Ingrese la fecha de fin (YYYY-MM-DD): 2024-08-31
-Genera un informe de stock para ver el inventario actual.
+- Ingrese la fecha de inicio (YYYY-MM-DD): 2024-08-01
+- Ingrese la fecha de fin (YYYY-MM-DD): 2024-08-31
+- Genera un informe de stock para ver el inventario actual.
 
 # 📊 Informes
 ## Informe de Ventas
@@ -103,3 +103,8 @@ Permite gestionar el inventario de manera proactiva.
 - `modules/corefiles.py`: Funciones para iniciar y gestionar bases de datos.
 - `modules/funcionGlobal.py`: Funciones globales para operaciones comunes.
 - `modules/movesJson.py`: Funciones para manejar archivos JSON.
+
+
+<h2 aling="center">Desarrollado por:</h2>
+
+- [@ayelmercorzo](https://www.github.com/ayelmercorzo)
