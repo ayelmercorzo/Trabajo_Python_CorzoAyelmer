@@ -1,9 +1,15 @@
 import json
 import modules.funcionGlobal as fg
 import modules.corefiles as cf
-import ui.uiMenuPrincipal as uiE
+import ui.menus as ui
 
-fg.borrar_pantalla()
+def main():
+    fg.borrar_pantalla()
+    cf.iniciarRegistroTransacciones()
+    while True:
+        opcion = ui.MenuPrincipal()
+        if opcion == 4:
+            break
+
 if __name__ == '__main__':
-        cf.iniciarRegistroTransacciones()
-print(uiE.mainMenu("op"))
+    main()
